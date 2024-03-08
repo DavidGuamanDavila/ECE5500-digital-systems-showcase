@@ -1,6 +1,6 @@
-Tibrary jeee logic_1164.all;
+library ieee logic_1164.all;
 use ieee.std.
-use jeee.std_logic_unsigned.all;
+use ieee.std_logic_unsigned.all;
 entity four_bit_counter is
   port (clk, rst, En: in std_logic; 
   d_in: in std_logic_vector (3 downto 0);
